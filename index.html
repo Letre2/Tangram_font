@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p5.js example</title>
+    <link rel="stylesheet" href="sketch.css">
+  </head>
+  <body>
+  <main>
+    <div class="toggle-bar">
+      <nav class="toggle-nav">
+        <ul class="toggle-list">
+          <li data="tangram" class="toggle-item active">Tangram</li>
+          <li data="speed" class="toggle-item">Speed</li>
+          <li data="easter-egg" class="toggle-item">Easter Eggs</li>
+          <li class="slide"></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="color-bar">
+      <nav class="color-nav">
+        <ul class="color-list">
+          <li data="red" class="color-item active">Purple</li>
+          <li data="blue" class="color-item">Blue</li>
+          <li data="green" class="color-item">Green</li>
+          <li class="slide"></li>
+        </ul>
+      </nav>
+    </div>
+  </main>
+  <!-- <script src="node_modules/matter-js/build/matter.min.js"></script> -->
+  <script src="libs/gsap.js"></script>
+  <script src="libs/jquery.js"></script>
+  <script src="libs/p5.min.js"></script>
+  <script src="libs/p5.dom.min.js"></script>
+  <script src="letters.js"></script>
+    <script>
+  var toggleData = $(".toggle-item.active").attr('data');
+  var colorData = $(".color-item.active").attr('data');
+  $(".toggle-item").click(function(){
+    $(this).siblings().removeClass('active');
+    $(this).addClass('active');
+    toggleData = $(this).attr('data');
+    animateLetters = [];
+    keysPressed = "";
+    isEasterEgg = false;
+  });
+  $(".color-item").click(function(){
+    $(this).siblings().removeClass('active');
+    $(this).addClass('active');
+    colorData = $(this).attr('data');
+  });
+</script>
+  <script src="objects.js"></script>
+  <script src="sketch.js"></script>
+
+  </body>
+</html>

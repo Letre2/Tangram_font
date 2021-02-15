@@ -1,0 +1,22 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "This is a project about generative typography using a tangram and javascript animations",
+  "main": "sketch.js",
+  "scripts": {
+    "test": "lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felixhaeberle/hfg-sem1-typo.git"
+  },
+  "author": "Felix Häberle, Tobias Ertel, Florens Schwendowius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felixhaeberle/hfg-sem1-typo/issues"
+  },
+  "homepage": "https://github.com/felixhaeberle/hfg-sem1-typo#readme",
+  "dependencies": {
+    "matter-js": "^0.14.2"
+  }
+}
