@@ -1,2 +1,3 @@
-# hfg-sem1-typo
-This is a project about generative typography using a tangram and javascript animations
+# tangram fotn
+
+This is a project about generative typography using the tangram shapes and javascript animations.
