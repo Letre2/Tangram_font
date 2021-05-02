@@ -1,9 +1,9 @@
 # tangram font
 
-![tangram_buchstaben](https://user-images.githubusercontent.com/64661338/116827763-0b222600-ab9b-11eb-960b-5c2f5918adf8.jpeg)
-
-
 https://user-images.githubusercontent.com/64661338/116827792-31e05c80-ab9b-11eb-82e9-3c74a51a12a9.mov
+
+
+![tangram_buchstaben](https://user-images.githubusercontent.com/64661338/116827763-0b222600-ab9b-11eb-960b-5c2f5918adf8.jpeg)
 
 
 We built a modular typography using the P5.js and GSAP libraries. The project was inspired by the Chinese puzzle game "Tangram".
